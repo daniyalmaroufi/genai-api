@@ -20,3 +20,4 @@ def generate(prompt: Prompt):
         return {"response": response.text}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
